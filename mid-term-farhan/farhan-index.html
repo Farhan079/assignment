@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-layout</title>
+    <style>
+      * {
+        margin: 0px;
+      }
+      header {
+        background-color: grey;
+        text-align: center;
+        border: 2px solid black;
+      }
+      .slider-section {
+        background-color: skyblue;
+        height: 250px;
+        /* text-align: center; */
+        border: 2px SOLID blue;
+      }
+      .slider-section h2 {
+        color: blueviolet;
+        text-align: center;
+        justify-content: center;
+        padding: 100px;
+      }
+      .cont {
+        background-color: aquamarine;
+        /* border: 2px solid orange; */
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        height: 200px;
+      }
+      #i1 {
+        background-color: yellow;
+        border: 2px solid orange;
+        text-align: center;
+        padding: 60px;
+        color: orange;
+      }
+      /* #il h3{
+        text-align: center;
+        padding: 50px;
+      } */
+      #i2 {
+        background-color: brown;
+        border: 2px solid red;
+        text-align: center;
+        padding: 50px;
+        color: rgb(212, 187, 187);
+      }
+      .gallery {
+        background-color: palegreen;
+        text-align: center;
+        /* justify-content: space-around; */
+        justify-content: space-between;
+        border: 2px solid greenyellow;
+        color: rgba(83, 131, 12, 0.89);
+      }
+      .cont1 {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        background-color: palegreen;
+        height: 500px;
+        justify-content: space-evenly;
+        padding: 10px;
+        /* justify-content: space-around; */
+        /* justify-content: space-between; */
+      }
+      #m1{
+        background-color: aqua;
+        border: 2px solid yellow;
+      }
+      #m2{
+        background-color: aquamarine;
+        border: 2px solid yellow;
+      }
+      #m3{
+        background-color: blueviolet;
+        border: 2px solid yellow;
+      }
+      #m4{
+        background-color: silver;
+        border: 2px solid yellow;
+      }
+      .footer{
+        background-color: yellow;
+        height: 50px;
+        border: 2px solid red;
+        color: red;
+        text-align: center;
+        
+      }
+      .footer h2{
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <h1>NAVIGATION BAR</h1>
+      </div>
+    </header>
+    <main>
+      <div class="slider-section">
+        <h2>SLIDER SECTION</h2>
+      </div>
+      <div class="cont">
+        <div id="i1"><h3>PARAGRAPH</h3></div>
+        <div id="i2"><h3>IMAGE</h3></div>
+      </div>
+      <div class="gallery">
+        <h2>GALLERY</h2>
+        <div class="cont1">
+          <div id="m1"><h3></h3></div>
+          <div id="m2"><h3></h3></div>
+          <div id="m3"><h3></h3></div>
+          <div id="m4"><h3></h3></div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <h2>FOOTER</h2>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,123 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0px;
+  }
+  .firstsection > div {
+    width: 30%;
+  }
+  .leftsection {
+    font-size: 3rem;
+  }
+  .leftsection .button{
+    padding: 50px 0px;
+  }
+  .leftsection .btn{
+    padding: 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    background-color: rgb(95, 70, 117);
+    font-size: 15px;
+    cursor: pointer;
+
+  }
+  .rightsection img {
+    width: 80%;
+    border-radius: 20px;
+  }
+  .purple {
+    color: rgb(136, 101, 170);
+  }
+  .secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  /* about section image css */
+.imageAboutPage {
+    width: 100%;
+    border-radius: 20px;
+    
+}
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+.site-footer {
+    background-color: #222;
+    padding: 90px 15px 30px;
+    
+    margin-top: 5px;
+  }
+  .site-footer .site-footer--content {
+    max-width: 1600px;
+    display: block;
+    margin: 0 auto;
+    color: #FFF;
+    border-bottom: 1px solid #0000004D;
+  }
+  @media screen and (min-width: 768px) {
+    .site-footer .site-footer--content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+    }
+  }
+  .site-footer .site-footer--content .footer-left {
+    -ms-flex-preferred-size: 55%;
+        flex-basis: 55%;
+  }
+  .site-footer .site-footer--content .footer-left p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #E0E0E0;
+  }
+  .site-footer .site-footer--content .footer-right {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+    text-align: right;
+  }
+  .site-footer .site-footer--content a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  .site-footer .copyright-notice {
+    padding-top: 20px;
+    text-align: center;
+    color: #7A7A7A;
+    border-top: 1px solid #FFFFFF0D;
+  }

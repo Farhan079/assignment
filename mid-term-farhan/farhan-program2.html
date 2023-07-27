@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+  </head>
+  <body>
+    <h2 id="hed">FARHAN KHAN</h2>
+    <button id="btn" onclick="alter()">Change Tittle</button>
+    <script>
+      let h2 = document.querySelector("#hed")
+      let btn = document.querySelector('#btn')
+
+      function alter(){
+        if (btn.innerHTML === "Change Tittle"){
+          h2.innerHTML = "THIS IS MY FIRST JAVA SCRIPT PROGRAM"
+          btn.innerHTML = "Reset"
+        } else {
+          h2.innerHTML = "Abdul Salaam"
+          btn.innerHTML = "Change Tittle"
+        }
+      }
+    </script>
+  </body>
+</html>
